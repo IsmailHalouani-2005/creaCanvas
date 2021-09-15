@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <g id="Logo-creaCanvas" transform="translate(348 407)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(-348 -407)" fill="rgba(255,255,255,0)" stroke="#6627d5" stroke-width="20">
+      <circle cx="150" cy="150" r="150" stroke="none"/>
+      <circle cx="150" cy="150" r="140" fill="none"/>
+    </g>
+    <text id="cC." transform="translate(-196.5 -201)" fill="#e8d314" font-size="150" font-family="Lobster-Regular, Lobster" letter-spacing="0.025em"><tspan x="-86.325" y="0">c</tspan><tspan y="0" fill="#6627d5">C.</tspan></text>
+  </g>
+</svg>
