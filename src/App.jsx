@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useEffect } from 'react'
-import {Link, Route, Router, Switch, useRouteMatch, useParams} from 'react-router-dom'
+import {Link, Route, Switch, useRouteMatch, useParams, useLocation, useHistory } from 'react-router-dom'
+import { BrowserRouter as Router} from 'react-router-dom'
 import Create_Page from './components/Create_p.jsx'
 import Main from './components/Main.jsx'
 import { useSelector, useDispatch } from 'react-redux'
@@ -14,6 +15,8 @@ import Order from './components/Order'
 // }
 
 const  App = () => {
+  // let location = useLocation()
+  // const { location } = useHistory()
   let match = useRouteMatch();
   useEffect(() => console.log(match), []) 
 

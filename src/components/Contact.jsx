@@ -1,8 +1,7 @@
 import React, {useState, useRef} from 'react';
 import emailjs from 'emailjs-com'
 import './map.css';
-// import { TileLayer } from 'react-leaflet'
-// import { MapContainer } from 'react-leaflet'
+// import { TileLayer } from 'react-leaflet' 
 import osm from './osm-provider'
 
 const Contact = () => {
