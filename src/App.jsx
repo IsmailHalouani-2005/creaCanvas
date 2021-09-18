@@ -50,7 +50,7 @@ const  App = () => {
               </nav>
             }
             <div className="bought">
-              <i className="fas fa-shopping-bag"/>
+              <Link to="/Order"><i className="fas fa-shopping-bag"/></Link>
               <span className="bag-counter"> {canvas.length} </span>
             </div>
           </header>
